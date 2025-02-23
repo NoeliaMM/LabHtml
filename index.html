@@ -10,9 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header>        
         <nav class="navbar"> 
-            <ul class="left-items">
+            <ul class="left-items burger">
                 <li><a href="#"><img src="resources/icons/icon-menu-burguer.svg" alt=""></a></li>
             </ul>
             <ul class="center-items">
@@ -29,26 +29,46 @@
         </nav>       
     </header>
     <main >     
-        <h1>NUEVAS COLECCIONES</h1>   
-        <div class="gallery">
-            <div class="image-item">
+        <div class="container">
+            <h1>NUEVAS COLECCIONES</h1> 
+        <section class="grid">
+            <div class="card">
                 <img src="resources/images/image-1.jpg" alt="Imagen 1">
                 <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p>
+           
             </div>
-            <div class="image-item"><img src="resources/images/image-2.jpg" alt="Imagen 2">
-                <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p></div>
-            <div class="image-item"><img src="resources/images/image-3.jpg" alt="Imagen 3">
-                <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p></div>
-            <div class="image-item"><img src="resources/images/image-4.jpg" alt="Imagen 4">
-                <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p></div>
-            <div class="image-item"><img src="resources/images/image-5.jpg" alt="Imagen 1">
-                <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p></div>
-            <div class="image-item"><img src="resources/images/image-6.jpg" alt="Imagen 2">
-                <p class="description"><span>Camisa</span><span class="bold-text">44.95€</span></p></div>
-        </div>  
+            <div class="card"><img src="resources/images/image-2.jpg" alt="Imagen 2">
+                <p class="description"><span>Polo</span><span class="bold-text">20.95€</span></p></div>
+            <div class="card"><img src="resources/images/image-3.jpg" alt="Imagen 3">
+                <p class="description"><span>Vestido</span><span class="bold-text">44.95€</span></p></div>
+            <div class="card"><img src="resources/images/image-4.jpg" alt="Imagen 4">
+                <p class="description"><span>Vaqueros</span><span class="bold-text">30.15€</span></p></div>
+            <div class="card"><img src="resources/images/image-5.jpg" alt="Imagen 1">
+                <p class="description"><span>Polo</span><span class="bold-text">44.95€</span></p></div>
+            <div class="card"><img src="resources/images/image-6.jpg" alt="Imagen 2">
+                <p class="description"><span>Camisa</span><span class="bold-text">40.95€</span></p></div>
+        </div> 
+    </section>  
     </main>
-    <footer>
-        <p>Laboratorio Html © NoeMM</p>
+    <footer class="footer"> 
+        <div class="icon-container">
+        <div class="icon-circle">
+            <img src="resources/icons/icon-truck.svg" alt="Icon truck">
+          </div>
+          <span>Entrega</span>   
+        </div>
+        <div class="icon-container"> Devoluciones y cambios</div>
+        <div class="icon-container">
+        <div class="icon-circle">
+            <img src="resources/icons/icon-phone.svg" alt="Icon phone">            
+            </div>
+           <span> +375 (29) 749-18-23</span>
+        </div>
+        <div class="icon-container">
+        <div class="icon-circle">
+            <img src="resources/icons/icon-mail.svg" alt="Icon mail"> 
+           </div><span>shop@omix.com</span> 
+        </div> 
     </footer>
 
 </body>
